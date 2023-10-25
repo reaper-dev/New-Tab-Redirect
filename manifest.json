@@ -1,0 +1,15 @@
+{
+  "icons": {
+      "128": "icon/128.png",
+      "16": "icon/16.png",
+      "48": "icon/48.png"
+   },
+  "name": "NEW TAB",
+  "description": "Overrides the new tab page",
+  "version": "1",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "new-tab.html"
+  },
+  "manifest_version": 2
+}
